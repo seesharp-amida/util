@@ -1,17 +1,5 @@
 // util/mme.fx
 
-/* 
-■エフェクト：
-  ユティリティー関数定義
-
-■概要：
-  よく使う便利関数などを定義する。
-  単体で使用するものではなく、任意のエフェクトで下記のように記述して利用する。
-  
-  #include "./util/mme.fx"
-  
-  使用にあたっては関数名その他の競合に注意の事。
-*/
 #define PI 3.14159265359
 
 float4x4 WorldViewMatrixInverse : WORLDVIEWINVERSE;
